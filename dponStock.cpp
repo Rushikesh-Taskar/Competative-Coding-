@@ -1,4 +1,5 @@
 // memoization 
+// time complexity O(nx2) space complexity O(nx2)+O(n) [dp+auxiliary stack space ]
 class Solution {
 public:
     int findmax(vector<int>& price ,int i,int buy ,vector<vector<int>>& dp)
